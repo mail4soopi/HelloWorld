@@ -8,5 +8,6 @@ import org.scalatest.FlatSpec
 class MainTest extends FlatSpec {
   "Application" should "add correctly" in {
     assert(Application.add(1,2)==3)
+    println("In Test files")
   }
 }
