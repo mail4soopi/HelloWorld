@@ -113,7 +113,7 @@
               <artifactId>scoverage-maven-plugin</artifactId>
               <version>${scoverage.plugin.version}</version>
               <configuration>
-                  <minimumCoverage>60</minimumCoverage>
+                  <minimumCoverage>5</minimumCoverage>
                   <failOnMinimumCoverage>true</failOnMinimumCoverage>
                   <highlighting>true</highlighting>
                   <excludedPackages>${scoverage.excludedPackages}</excludedPackages>

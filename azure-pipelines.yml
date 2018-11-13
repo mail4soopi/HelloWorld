@@ -16,4 +16,4 @@ steps:
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/TEST-*.xml'
-    goals: '-U -B -fae clean deploy'
+    goals: '-U -B -fae clean package'
