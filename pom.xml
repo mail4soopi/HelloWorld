@@ -28,16 +28,6 @@
 
   <dependencies>
 
-      <dependency>
-          <groupId>com.typesafe.akka</groupId>
-          <artifactId>akka-slf4j_2.12</artifactId>
-          <version>${akka.version}</version>
-      </dependency>
-      <dependency>
-          <groupId>com.typesafe.akka</groupId>
-          <artifactId>akka-cluster-sharding_2.12</artifactId>
-          <version>${akka.version}</version>
-      </dependency>
 
       <dependency>
           <groupId>org.scalatest</groupId>
@@ -45,11 +35,7 @@
           <version>3.0.4</version>
           <scope>test</scope>
       </dependency>
-      <dependency>
-          <groupId>com.typesafe.akka</groupId>
-          <artifactId>akka-testkit_2.12</artifactId>
-          <version>${akka.version}</version>
-      </dependency>
+
   </dependencies>
 
   <build>
